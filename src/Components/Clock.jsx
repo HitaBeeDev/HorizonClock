@@ -11,7 +11,7 @@ export default function Clock({ hours, minutes, seconds }) {
     >
       {numberPositions.map(({ num, rotation }) => (
         <h2
-          className="absolute w-40 h-40 origin-center transform text-white text-sm flex items-center justify-center text-slate-950"
+          className="absolute w-40 h-40 origin-center transform text-sm flex items-center justify-center text-slate-950"
           style={{
             transform: `rotate(${rotation}deg) translate(-50%) rotate(${-rotation}deg)`,
           }}
